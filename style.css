@@ -1,8 +1,8 @@
 body {
-    background-color:rgba(177,153,153,0.6); }
+    background-color:#2BE2CA}
 
 header {
-    background-color:#998991;
+    background-color:#C2F9F1;
     margin:0px;
     text-decoration:none;
     padding-bottom:20px;
@@ -10,18 +10,20 @@ header {
 }
 
 header li {
-    display:inline-block;
-    width:32%;
+font-family: 'Special Elite', cursive;
    text-align:center;
+    display:inline-block;
+    width:30%;
+    border: 3px yellow double;
 }
 
 ul { 
     margin:0px ;
     padding:0px;
 }
-
+ 
 footer {
-    background-color:#998991;
+    background-color:#C2F9F1;
     margin:0px;
     text-decoration:none;
     padding-bottom:20px;
@@ -34,3 +36,17 @@ footer li {
     text-align:center;
 }
 
+ #moi {
+
+    overflow:hidden;
+    border-radius:50%;
+    width:150px;
+    height:150px;
+     margin:auto;
+     margin-top:20px;
+}
+
+#moi img{
+    width:100%;
+    height:100%;
+}
