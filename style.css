@@ -1,6 +1,24 @@
 body {
     background-color:#2BE2CA}
 
+body, html{
+    height:100%;
+    margin: 0;
+}
+
+.sitewrap{
+    min-height: 100%;
+    margin-bottom: -84px;
+}
+
+.sitewrap:after {
+  content: "";
+  display: block;
+}
+.footer, .sitewrap:after {
+  height: 84px; 
+}
+
 header {
     background-color:#C2F9F1;
     margin:0px;
