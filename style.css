@@ -1,5 +1,6 @@
 body {
-    background-color:#2BE2CA}
+    background-color:#a81a10;
+}
 
 body, html{
     height:100%;
@@ -20,19 +21,23 @@ body, html{
 }
 
 header {
-    background-color:#C2F9F1;
+    
+    
     margin:0px;
     text-decoration:none;
     padding-bottom:20px;
     padding-top:20px;
+    
 }
 
 header li {
-font-family: 'Special Elite', cursive;
+font-family:'Josefin Sans', sans-serif;
+    font-size:25px;
+   color:#000000;
    text-align:center;
     display:inline-block;
-    width:30%;
-    border: 3px yellow double;
+    width:32%;
+   
 }
 
 ul { 
@@ -41,11 +46,12 @@ ul {
 }
  
 footer {
-    background-color:#C2F9F1;
+  
     margin:0px;
     text-decoration:none;
     padding-bottom:20px;
     padding-top:20px;
+    
 }
 
 footer li {
