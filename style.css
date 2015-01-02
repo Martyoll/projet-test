@@ -20,8 +20,7 @@ body, html{
   height: 84px; 
 }
 
-header {
-    
+header { 
     
     margin:0px;
     text-decoration:none;
@@ -31,7 +30,7 @@ header {
 }
 
 header li {
-font-family:'Josefin Sans', sans-serif;
+font-family: 'Quattrocento Sans', sans-serif;
     font-size:25px;
    color:#000000;
    text-align:center;
@@ -73,4 +72,43 @@ footer li {
 #moi img{
     width:100%;
     height:100%;
+}
+#conteneur{
+ height: 1000px;
+ width: 1000px;
+ margin: auto;
+}
+#bloc_1{
+ height: 500px;
+ width: 500px;
+ position: relative;
+ float: left;
+}
+#bloc_2{
+
+    height: 500px;
+ width: 500px;
+ position: relative;
+ float: left;
+}
+    
+h1 {
+text-align:center;
+font-family: 'Poiret One', cursive;
+font-size:28px ;
+}
+
+h2 {
+    text-align:center;
+font-family: 'Poiret One', cursive;
+font-size:24px ;
+}
+
+h3 {
+    font-size:16px;
+    font-family: 'Quattrocento Sans', sans-serif;}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
 }
